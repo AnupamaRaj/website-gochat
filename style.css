@@ -1,9 +1,11 @@
 html{
 	height:100%;
+	text-align:center;
 }
 
 body 
 {
+
 text-align:center;
 height:100%;
 width:100%;
@@ -26,21 +28,68 @@ h1
  background-position:fixed;
  height:50pt;
  width:100%;
+ margin-top:0px;
  }
  h5{
 	 font-size:25pt;
+	 font-family:"Harrington";
+	 margin:0px;
+	 padding:20px;
  }
+ h4{
+	 font-size:50pt;
+	 font-family:"Comic Sans MS";
+	 margin:0px;
+ }
+ 
+#navbar{
+	text-align:center;
+	
+	
+}
+ 
+#navbar ul{
+	 margin:0px;
+	 padding:0px;
+	 list-style:none;
+	 display:inline-block;
+	 margin-top:0px;
+	 }
+#navbar ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+#navbar ul li{
+	float:left;
+	width:200px;
+	height:40px;
+	background-color:black;
+	font-size:20px;
+	line-height:40px;
+	text-align:center;
+	opacity:.5;
+	border:1px;
+	
+	
+}
+ #navbar ul li a:hover{
+	background-color:red;
+}
+
 .sect{
 	background-color:#f0f8ff;
 	height:150%;
 	background-size:cover;
 	background-attachment:fixed;
+	padding:20px;
 	
 }
 .subSection{
-	background-color:#000000;
-	height:100%;
-	
+	background-color:#8b7d6b;
+	height:75%;
+	padding:20px;
 }
 .sectOne{
 	background-image:url("05.jpg");
@@ -49,4 +98,6 @@ h1
 	background-image:url("06.jpg");
 }
 
-
+.sectThree{
+	background-image:url("00.jpg")
+}
