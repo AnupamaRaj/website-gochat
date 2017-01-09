@@ -2,32 +2,46 @@
 <head>
 	<title>gochat</title>
 	<link href="style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
 
-	<div class="sect sectOne">
+	<div id="HOME" class="sect sectOne">
 		<div id="navbar"> 
 			<ul>
-				<li><a href='gochat.html#HOME'>HOME</a></li>
-				<li><a href='gochat.html#FEATURES'>FEATURES</a></li>
-				<li><a href='gochat.html#INSTALLATION'>INSTALLATION</a></li>
-				<li><a href='gochat.html#USAGE'>USAGE</a></li>
-				<li><a href='gochat.html#ABOUT'>ABOUT</a></li>
+				<li><a onclick ="initScroll('HOME'); return false;" href='#'>HOME</a></li>
+				<li><a onclick ="initScroll('FEATURES'); return false;" href='#'>FEATURES</a></li>
+				<li><a onclick ="initScroll('INSTALLATION'); return false;" href='#'>INSTALLATION</a></li>
+				<li><a onclick ="initScroll('USAGE'); return false;" href='#'>USAGE</a></li>
+				<li><a onclick ="initScroll('ABOUT'); return false;" href='#'>ABOUT</a></li>
 			</ul>
+			
 		</div>
-		<h1>GoChat!<a name="HOME"></a></h1>
+		<a id="top" onclick="toTop();return false;" href="#">GOTO TOP</a>
+		<h1>GoChat!</h1>
 		<h5>The terminal chat application</h5>
-		<img src="000.JPG" style="width:1000px;height:550px;padding:20px" p></img>
+		<img src="000.jpg" style="width:1000px;height:550px;padding:20px" ></img>
 	</div>
-	<div class="subSection"><h4>FEATURES<a name="FEATURES"></a></h4></div>
-	<div class="sect sectTwo"><h4>INSTALLATION<a name="INSTALLATION"></a></h4></div>
-	<div class="subSection"><h4>USAGE<a name="USAGE"></a></h4></div>
-	<div class="sect sectThree"><h4>ABOUT<a name="ABOUT"></a></h4>
+	<div id= "FEATURES" class="subSection">
+	<h4>FEATURES</h4>
 	</div>
-
- <footer>
+	
+	<div id="INSTALLATION" class="sect sectTwo">
+	<h4>INSTALLATION</h4>
+	</div>
+	
+	<div id="USAGE" class="subSection">
+	<h4>USAGE</h4>
+	</div>
+	
+	<div id="ABOUT" class="sect sectThree">
+	<h4>ABOUT</h4>
+	</div>
+	
+<footer>
   <p><strong>*** Website by <i>Anupama Raj</i> and <i>Naela Tarannum </i>***<strong></p>
 </footer> 
+
 </body>
 </html>

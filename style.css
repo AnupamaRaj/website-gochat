@@ -94,3 +94,12 @@ h1{
 .sectThree{
 	 background-image:url("00.jpg")
 }
+#top{
+	position:fixed;
+	bottom:0px;
+	font-size:20pt;
+	font-family:"stencil";
+	background-color:white;
+	color:black;
+	text-decoration:none;
+}
