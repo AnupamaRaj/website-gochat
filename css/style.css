@@ -264,3 +264,12 @@ footer{
 	text-align:center;
 	padding-bottom:40px;
 }
+
+.rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    width: 175px;
+    height: 40px;
+}
